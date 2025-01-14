@@ -1,0 +1,62 @@
+
+#profile {
+    background-image: url(../assets/background/Background_Intro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    margin: 0 auto;
+
+    header {
+        display: grid;
+        place-items: center;
+        width: 680px;
+        margin: 0 auto;
+    }
+
+    header > img {
+        padding-block: 120px 56px;
+    }
+
+    header p{
+        padding-bottom: 8px;
+    }
+
+    header h1 {
+        padding-bottom: 20px;
+    }
+
+    header span{
+        padding-bottom: 80px;
+        font: var(--text-sm);
+        text-align: center;
+    }
+
+    .tecnologies {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        column-gap: 16px;
+        margin: 0 auto;
+        width: 754px;
+        padding-bottom: 94px;
+    }
+
+    .tag {
+        width: 114px;
+        background-color: var(--color-gray-300);
+        padding: 8px;
+        border-radius: 999px;
+        text-align: center;
+        color: var(--color-gray-500);
+        font: var(--text-md);
+    }
+
+    .vetor {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+
+}
