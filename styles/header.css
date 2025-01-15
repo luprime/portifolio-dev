@@ -69,11 +69,13 @@ ul li {
     padding: 8px 16px;
   }
 
+/* colocando cor e estilo de texto no p dos li*/
 ul li p {
     font: var(--text-md);
     color: var(--color-gray-500);
 }
 
+/* pegar a ultima imagem no header, a ultima crinça no header */
 header img:nth-last-child(1) {
     margin-block: 94px;
 

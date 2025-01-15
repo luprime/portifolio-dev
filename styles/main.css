@@ -1,0 +1,41 @@
+/* fazendo a cor de fundo dessa seçao chamada main, e estipulando seu tamanho*/
+main {
+    height: 917px;
+
+    background-color: var(--color-gray-200);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* colocando todos os cards de 3 em 3 uma do lado da outra com distancia entre elas de 24px */
+main section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 24px;
+}
+
+/* estilizando o tamanho das imagens dos cards*/
+main section img {
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+    border-radius: 8px;
+
+    margin-bottom: 24px;
+}
+
+h3 {
+    margin-block: 8px 56px;
+}
+
+/* fazendo o contorno dos cards com as informaçoes escritas */
+#card {
+    background-color: var(--color-gray-300);
+    width: 330px;
+    height: 280px;
+    padding: 12px;
+    border-radius: 12px;
+}

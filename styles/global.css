@@ -48,12 +48,12 @@ span {
     color: var(--color-red);
 }
 
-#card .card-3 strong {
+#card, .card-3 strong {
     font: var(--title-sm);
     color: var(--color-gray-600);
 }
 
-#card .card-3 p {
+#card, .card-3 p {
     margin-top: 8px;
 }
 
