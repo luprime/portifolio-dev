@@ -21,66 +21,40 @@
     --color-gray-600: #E2E4E9;
 
     /* font family */
-    --asap: "Asap", serif;
-    --inconsolata: "Inconsolata", Serif;
-    --maven-pro: "Maven pro", Serif;
-    --consolas: "Consolas", Serif;
-
+    --asap: "Asap", sans-serif;
+    --inconsolata: "Inconsolata", sans-serif;
+    --maven-pro: "Maven pro", sans-serif;
     /* fonts */
-    --title-lg: bold 55px/120% var(--asap);
-    --title-md: bold 24px/120% var(--asap);
-    --title-sm: bold 16px/120% var(--asap);
-    --subtitle: 20px/120% var(--inconsolata);
-    --text-md: 16px/140% var(--maven-pro);
-    --text-sm: 14px/140% var(--maven-pro);
-    --text-consolas: 18px/120% var(--consolas);
+    --title-lg: 700 56px/120% var(--asap);
+    --title-md: 700 24px/120% var(--asap);
+    --title-sm: 700 16px/120% var(--asap);
+    --subtitle: 400 20px/120% var(--inconsolata);
+    --text-md: 400 16px/140% var(--maven-pro);
+    --text-sm: 400 14px/140% var(--maven-pro);
 }
 
-.color-red {
-    color: var(--color-red);
+h3 {
+    color: var(--color-gray-600);
+    font: var(--title-md);
 }
 
-.color-purple {
-    color: var(--color-purple);
-}
-
-.color-blue {
-    color: var(--color-blue);
-}
-
-.color-green {
-    color: var(--color-green);
-}
-
-.color-yellow {
-    color: var(--color-yellow);
-}
-
-.color-gray {
-    color: var(--color-gray-100);
-}
-
-.color-gray-200 {
-    color: var(--color-gray-200);
-}
-
-.color-gray-300 {
-    color: var(--color-gray-300);
-}
-
-.color-gray-400 {
+p {
+    font: var(--text-md);
     color: var(--color-gray-400);
 }
 
-.color-gray-500 {
-    color: var(--color-gray-500);
+span {
+    font: var(--subtitle);
+    color: var(--color-red);
 }
 
-.color-gray-600 {
+#card .card-3 strong {
+    font: var(--title-sm);
     color: var(--color-gray-600);
 }
 
-h1 {
-    font: var(--title-lg);
-    color: var(--color-gray-600);
+#card .card-3 p {
+    margin-top: 8px;
 }
+
+

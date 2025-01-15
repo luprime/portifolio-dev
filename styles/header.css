@@ -1,0 +1,82 @@
+header {
+    height: 750px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(../assets/background/Background_Intro.png);
+    background-size: cover;
+}
+
+ /* estilizando a imagem do avatar */
+header > img {
+    height: 112px;
+    width: 120px;
+    object-fit: cover;
+
+    margin-bottom: 56px;
+}
+
+ /* centralizando todos os componentes na div */
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* estilizando "Desenvolvedora Fullstack */
+h1 {
+    font: var(--title-lg);
+    color: var(--color-gray-600);
+}
+
+/* h2 é o começo to texto de introdução */
+h2 {
+    font: var(--subtitle);
+    color: var(--color-gray-500);
+    margin-bottom: 8px;
+}
+
+/* o p dentro do header e div */
+header div > p {
+    margin-block: 20px 80px;
+    font: var(--text-sm);
+}
+
+/* tirando bolinhas da lista, deixando sem o estilo padrão */
+li {
+    list-style: none;
+}
+
+/* alinhando horizontalmente as tags de tecnologias */
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+/* estilizado caixas ao redor das tecnologias (caixa cinza) */
+ul li {
+    background-color: var(--color-gray-300);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+  
+    gap: 8px;
+    padding: 8px 16px;
+  }
+
+ul li p {
+    font: var(--text-md);
+    color: var(--color-gray-500);
+}
+
+header img:nth-last-child(1) {
+    margin-block: 94px;
+
+    width: 32px;
+    height: 32px;
+}
