@@ -1,3 +1,4 @@
+/* background do footer, local onde estao as redes sociais*/
 footer {
     height: 787px;
 
@@ -11,7 +12,7 @@ footer {
     display: flex;
     align-items: center;
     flex-direction: column;
-
+     /*  */
     & > div {
         display: flex;
         flex-direction: column;
