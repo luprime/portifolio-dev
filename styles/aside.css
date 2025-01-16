@@ -10,6 +10,7 @@ aside {
     justify-content: center;
 }
 
+/* colocar os cards um do lado do outro horizontalmente */
 aside section{
     display: flex;
     gap: 24px;
